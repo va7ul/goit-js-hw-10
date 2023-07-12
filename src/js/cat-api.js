@@ -54,7 +54,7 @@ function createCatCard(data) {
 
 function fetchCatByBreed(event) {
     loaderEl.style.display = 'flex';
-    breed_ids = event.currentTarget.value;
+    let breed_ids = event.currentTarget.value;
 
     axios.get(`/v1/images/search?breed_ids=${breed_ids}`)
         .then(response => {
