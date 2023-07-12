@@ -1,0 +1,11 @@
+.breed-select {
+    visibility: hidden;
+}
+
+body {
+    background-color: peachpuff
+}
+
+.cat-info {
+    margin: 20px;
+}
